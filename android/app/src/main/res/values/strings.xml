@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Tsinjo</string>
+    <string name="title_activity_main">Tsinjo</string>
+    <string name="package_name">com.digital514.tsinjo</string>
+    <string name="custom_url_scheme">com.digital514.tsinjo</string>
+</resources>

@@ -1,0 +1,13 @@
+project_id = "zvfewovaxriwottkfcuc"
+
+[functions.chat]
+verify_jwt = false
+
+[functions.daily-tip]
+verify_jwt = false
+
+[functions.send-reminders]
+verify_jwt = false
+
+[functions.vapid-public-key]
+verify_jwt = false

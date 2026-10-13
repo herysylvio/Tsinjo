@@ -1,0 +1,1 @@
+ALTER TABLE public.savings_goals ADD COLUMN account_id uuid REFERENCES public.accounts(id) ON DELETE SET NULL;

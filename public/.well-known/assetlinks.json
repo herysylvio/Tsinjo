@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.digital514.tsinjo",
+      "sha256_cert_fingerprints": [
+        "28:49:C4:CB:EC:D9:8A:9C:03:6A:55:49:53:95:8E:80:A9:9B:AA:B9:E1:7A:08:D6:F6:81:2D:04:B5:52:43:CD"
+      ]
+    }
+  }
+]
