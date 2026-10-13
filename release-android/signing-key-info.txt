@@ -1,0 +1,36 @@
+===================================================================
+TSINJO — INFORMATIONS DE SIGNATURE & GOOGLE PLAY CONSOLE
+===================================================================
+
+Identifiant de package Android : com.digital514.tsinjo
+
+-------------------------------------------------------------------
+1. NOUVELLE CLÉ DE TÉLÉVERSEMENT (Prête à l'emploi)
+-------------------------------------------------------------------
+Fichier Keystore : release-android/tsinjo-upload-new.jks
+Mot de passe du Keystore : tsinjo2026upload
+Alias de la clé : tsinjo-upload
+Mot de passe de la clé : tsinjo2026upload
+Certificat PEM à transmettre à Google : release-android/upload_certificate.pem
+
+Empreinte SHA-256 de la nouvelle clé :
+EE:10:A8:E6:50:CC:3C:3A:60:87:0A:07:77:08:46:87:D5:B3:76:4A:4D:14:8B:8A:A8:3F:6B:E7:3E:89:34:B4
+
+-------------------------------------------------------------------
+2. ANCIENNE CLÉ D'ORIGINE (Avril 2026)
+-------------------------------------------------------------------
+Fichier : release-android/tsinjo.keystore (copie de C:\Users\sylvi\KEYS)
+SHA-256 de l'ancienne clé :
+28:49:C4:CB:EC:D9:8A:9C:03:6A:55:49:53:95:8E:80:A9:9B:AA:B9:E1:7A:08:D6:F6:81:2D:04:B5:52:43:CD
+
+===================================================================
+PROCÉDURE DE RÉINITIALISATION SUR GOOGLE PLAY CONSOLE (2 minutes) :
+===================================================================
+1. Aller sur Google Play Console > Tsinjo.
+2. Menu de gauche : Configuration > Intégrité de l'application (App Integrity).
+3. Onglet "Signature de l'application" (App Signing).
+4. Cliquer sur "Demander la réinitialisation de la clé de téléversement".
+5. Fournir le fichier : release-android/upload_certificate.pem
+6. Google applique la réinitialisation sous 24h.
+7. Vous pouvez alors téléverser vos AAB signés avec release-android/tsinjo-upload-new.jks !
+===================================================================
